@@ -3,13 +3,13 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: "AIzaSyDW6ldTQ9jIItRGdTDdhroBjBH1TWHaN8o",
-  authDomain: "mavindb-4e0a3.firebaseapp.com",
-  databaseURL: "https://mavindb-4e0a3.firebaseio.com",
-  projectId: "mavindb-4e0a3",
+  apiKey: "AIzaSyBiGfY6V7QKNjBy_6x720OYIeZDLT40QFE",
+  authDomain: "mavin-89d98.firebaseapp.com",
+  databaseURL: "https://mavin-89d98.firebaseio.com",
+  projectId: "mavin-89d98",
   storageBucket: "",
-  messagingSenderId: "1053279623099",
-  appId: "1:1053279623099:web:1d401d35d3edfb54"
+  messagingSenderId: "290925438876",
+  appId: "1:290925438876:web:8314f0d94a598749"
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
