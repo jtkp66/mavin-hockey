@@ -19,6 +19,9 @@ const Header = ({ currentUser, hidden }) => (
       MAVIN HOCKEY CO.
     </Link>
     <div className="options">
+      <Link className="option" to="/">
+        Home
+      </Link>
       <Link className="option" to="/shop">
         ABOUT
       </Link>

@@ -12,7 +12,7 @@ const HomePage = () => (
       <div className="showcase">
         <img className="mvnlogo" src={logo} alt="Logo" />
         <hr />
-        <p>A hockey company with a soul</p>
+        <p>A HOCKEY COMPANY WITH A SOUL</p>
         <hr />
       </div>
       <Directory />
