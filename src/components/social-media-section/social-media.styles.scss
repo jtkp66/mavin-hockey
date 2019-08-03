@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  background: url(../../img/graf.jpg) no-repeat top center fixed/cover;
+  background-attachment: scroll;
+  border: 2px solid rgb(0, 0, 0);
+
+  .image {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .social {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(229, 229, 236);
+  }
+
+  .images {
+    width: 16vw;
+    height: 400px;
+    border: 3px solid rgb(43, 41, 41);
+  }
+
+  .option {
+    margin: 20px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+}

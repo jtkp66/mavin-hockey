@@ -4,11 +4,14 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  background: url(../../img/bckgrd.jpeg) no-repeat center fixed/cover;
+  border: 2px solid rgb(0, 0, 0);
+  background-attachment: scroll;
 
   .logo-container {
     height: 100%;
     width: 500px;
-    padding: 25px;
+    padding: 18px;
     font-size: 28px;
   }
 
@@ -18,6 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 5px;
 
     .option {
       padding: 10px 15px;

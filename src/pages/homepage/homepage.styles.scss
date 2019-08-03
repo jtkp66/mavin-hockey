@@ -3,4 +3,22 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 80px;
+  background: url(../../img/bckgrd.jpeg) no-repeat center fixed/cover;
+  border: 2px solid rgb(0, 0, 0);
+
+  .showcase {
+    margin-bottom: 50px;
+    text-align: center;
+    opacity: 0.5;
+  }
+  .mvnlogo {
+    position: center;
+    margin: 50px;
+  }
+
+  p {
+    font-family: "Proza Libre", sans-serif;
+    font-weight: 550;
+    color: black;
+  }
 }
